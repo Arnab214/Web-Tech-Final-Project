@@ -3,10 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <title>Your Cart</title>
-    <link rel="stylesheet" href="cart.css">
+    <link rel="stylesheet" href="css/cart.css">
 </head>
 <body>
 
+ <?php include 'header.php'; ?>
+
+ 
+ <br><br><br><br><br><br>
+ <br><br><br><br><br><br>
+
+
+ <main class="cart-page">
+        
 <div class="cart-container">
     <h2>🛒 Shopping Cart</h2>
 
@@ -24,29 +33,18 @@
 
     <div class="cart-total" id="totalPrice"></div>
 </div>
+ </main>
 
-<script>
-let cart = JSON.parse(localStorage.getItem("cart")) || [];
-let total = 0;
-let tbody = document.getElementById("cartItems");
+ <br><br><br><br><br><br>
+ <br><br><br><br><br><br>
+ <br><br><br><br><br><br>
+ <br><br><br><br><br><br>
 
-cart.forEach(item => {
-    let subtotal = item.price * item.qty;
-    total += subtotal;
 
-    tbody.innerHTML += `
-        <tr>
-            <td>${item.name}</td>
-            <td>${item.price}</td>
-            <td>${item.qty}</td>
-            <td>${subtotal}</td>
-        </tr>
-    `;
-});
 
-document.getElementById("totalPrice").innerText =
-    "Total Price: ৳ " + total;
-</script>
+  <?php include 'footer.php'; ?>
+
+<script src="js/cart.js"></script>
 
 </body>
 </html>

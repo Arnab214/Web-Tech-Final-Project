@@ -4,12 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
-    <link rel="stylesheet" href="login.css">
-    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="css/login.css">
+    
 </head>
 <body>
-    
-    <div class="container">
+
+     <?php include 'header.php'; ?> 
+
+
+         <br><br><br><br><br><br><br>
+
+    <main class="login-page">
+            <div class="container">
         <div class="header">
             <h1>Login Form</h1>
         </div>
@@ -31,8 +37,16 @@
             <button type="button" onclick="forgotPassword()" class="fpass">Forgot Password?</button>
         </form>
     </div>
+    <br><br><br><br><br><br><br>
+    </main>
+    
+
+
+
+    <?php include 'footer.php'; ?>
+    
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-    <script src="login.js"></script>
+    <script src="js/login.js"></script>
     
 </body>
 </html>

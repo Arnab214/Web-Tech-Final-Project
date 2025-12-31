@@ -7,8 +7,11 @@
 
 body {
     background: #f5f6fa;
-    padding: 40px;
+     /* padding: 40px;  */
+    
 }
+
+
 
 /* Cart Wrapper */
 .cart-container {
@@ -18,6 +21,7 @@ body {
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    
 }
 
 .cart-container h2 {

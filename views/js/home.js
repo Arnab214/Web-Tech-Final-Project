@@ -13,3 +13,7 @@ document.addEventListener("click", function (e) {
     }
 });
 
+function goToCart() {
+    window.location.href = "cart.php";
+    
+    };

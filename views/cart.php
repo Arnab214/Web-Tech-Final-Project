@@ -19,19 +19,25 @@
 <div class="cart-container">
     <h2>🛒 Shopping Cart</h2>
 
-    <table>
-        <thead>
-            <tr>
-                <th>Product</th>
-                <th>Price (৳)</th>
-                <th>Quantity</th>
-                <th>Subtotal (৳)</th>
-            </tr>
-        </thead>
-        <tbody id="cartItems"></tbody>
-    </table>
+<table>
+    <thead>
+        <tr>
+            <th>Product</th>
+            <th>Price (৳)</th>
+            <th>Quantity</th>
+            <th>Subtotal (৳)</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody id="cartItems"></tbody>
+</table>
 
-    <div class="cart-total" id="totalPrice"></div>
+<div class="cart-total" id="totalPrice"></div>
+
+<div class="cart-actions">
+    <button onclick="checkout()" class="checkout-btn">Checkout</button>
+</div>
+
 </div>
  </main>
 
@@ -45,6 +51,7 @@
   <?php include 'footer.php'; ?>
 
 <script src="js/cart.js"></script>
+
 
 </body>
 </html>

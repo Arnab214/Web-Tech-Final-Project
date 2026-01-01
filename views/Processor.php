@@ -17,7 +17,7 @@
         <h3>AMD RYZEN 5 8400F CORE 6 THREADS 12 PROCESSOR</h3>
 
         <div class="price">
-            ৳ 14,000 <span>৳ 15,500</span>
+            ৳ 14,000 
         </div>
 
         <div class="stock">In Stock</div>
@@ -38,7 +38,7 @@
         <h3>INTEL CORE i3 14100 14th GEN RAPTOR LAKE PROCESSOR</h3>
 
         <div class="price">
-            ৳ 18,000 <span>৳ 18,500</span>
+            ৳ 18,000 
         </div>
 
         <div class="stock">In Stock</div>
@@ -59,7 +59,7 @@
         <h3>AMD RYZEN 7 9800X3D 8 CORES 16 THREADS GAMMING PROCESSOR</h3>
 
         <div class="price">
-            ৳ 56,500<span>৳ 57,500</span>
+            ৳ 56,500
         </div>
 
         <div class="stock">In Stock</div>
@@ -80,7 +80,7 @@
         <h3>AMD RYZEN 5 7600X3D 6 CORES 12 AM5 DESKTOP PROCESSOR</h3>
 
         <div class="price">
-            ৳ 33,999 <span>৳ 37,000</span>
+            ৳ 33,999 
         </div>
 
         <div class="stock">In Stock</div>
@@ -101,7 +101,7 @@
         <h3>INTEL CORE ULTRA 9-285K ARROW LAKE PROCESSOR </h3>
 
         <div class="price">
-            ৳ 70,300 <span>৳ 83,500</span>
+            ৳ 70,300 
         </div>
 
         <div class="stock">In Stock</div>
@@ -122,7 +122,7 @@
         <h3>AMD RYZEN 5 7400F 3.7GHz 6 CORE AMD SOCKET PROCESSOR</h3>
 
         <div class="price">
-            ৳ 14,799 <span>৳ 18,500</span>
+            ৳ 14,799 
         </div>
 
         <div class="stock">In Stock</div>
@@ -136,6 +136,8 @@
         <button class="buy-btn">Buy Now</button>
     </div>
 </section>
+
+<script src="js/addtocart.js"></script>
 
 <?php include 'footer.php'; ?>
 

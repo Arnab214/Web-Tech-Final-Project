@@ -18,7 +18,7 @@
         <h3>Dahua LM27-GO34A 26.5 inch 240Hz QHD QD-OLED GAMMING MONITOR</h3>
 
         <div class="price">
-            ৳ 80,000 <span>৳ 85,500</span>
+            ৳ 80,000 
         </div>
 
         <div class="stock">In Stock</div>
@@ -39,7 +39,7 @@
         <h3>ACER NITRO VG270 X1 27 INCH FHD 200HZ IPS GAMING MONITOR</h3>
 
         <div class="price">
-            ৳ 23,000 <span>৳ 24,700</span>
+            ৳ 23,000 
         </div>
 
         <div class="stock">In Stock</div>
@@ -60,7 +60,7 @@
         <h3>PHILIPS BRILLIANCE 438P1 43-INCH MULTIVIEW IPS LED MONITOR</h3>
 
         <div class="price">
-            ৳ 78,000<span>৳ 82,000</span>
+            ৳ 78,000
         </div>
 
         <div class="stock">In Stock</div>
@@ -81,7 +81,7 @@
         <h3>DAHUA DHI-LPH86-MC480-U 86 INCH SMART INTERACTIVE MONITOR</h3>
 
         <div class="price">
-            ৳ 365,000 <span>৳ 395,000</span>
+            ৳ 365,000 
         </div>
 
         <div class="stock">In Stock</div>
@@ -102,7 +102,7 @@
         <h3>GIGABYTE G34WQC2 34-INCH VA 1500R 200HZ GAMING MONITOR</h3>
 
         <div class="price">
-            ৳ 53,500 <span>৳ 55,000</span>
+            ৳ 53,500 
         </div>
 
         <div class="stock">In Stock</div>
@@ -123,7 +123,7 @@
         <h3>GIGATYTE M27UP ICE 27 INCH 160HZ 4K UHD GAMING MONITOR</h3>
 
         <div class="price">
-            ৳ 60,500 <span>৳ 63,000</span>
+            ৳ 60,500 
         </div>
 
         <div class="stock">In Stock</div>
@@ -137,6 +137,8 @@
         <button class="buy-btn">Buy Now</button>
     </div>
 </section>
+
+<script src="js/addtocart.js"></script>
 
 <?php include 'footer.php'; ?>
 

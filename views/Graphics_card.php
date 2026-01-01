@@ -16,7 +16,7 @@
         <h3>GIGABYTE GEFORCE RTX 3050 WINDFORCE V2 8G GDDR6 GRAPHICS CARD<BR></BR></h3>
 
         <div class="price">
-            ৳ 30,000 <span>৳ 30,500</span>
+            ৳ 30,000 
         </div>
 
         <div class="stock">In Stock</div>
@@ -34,10 +34,10 @@
         <span class="save-badge">Save: ৳ 5,001</span>
         <img src="../views/images/graphics card/cover-1765080095_cache_optimize-70.webp" alt="RTX 5070 Ti">
 
-        <h3>INNO3D GEFORCE RTX 5070 Ti iCHILL X3 16GB GDDR7 GRAPHICS CARD</h3>
+        <h3>INNO3D GEFORCE RTX 5070 Ti iCHILL X3 16GB GDDR7 GRAPHICS CARD </h3><BR></BR>
 
         <div class="price">
-            ৳ 119,999 <span>৳ 125,000</span>
+            ৳ 119,999  
         </div>
 
         <div class="stock">In Stock</div>
@@ -55,10 +55,10 @@
         <span class="save-badge">Save: ৳ 1,600</span>
         <img src="../views/images/graphics card/cover-1765087584_cache_optimize-70.webp" alt="RTX 3050">
 
-        <h3>INNO3D GEFORCE RTX 5070 X3 OC 12GB GDDR7 GRAPHICS CARD</h3>
+        <h3>INNO3D GEFORCE RTX 5070 X3 OC 12GB GDDR7 GRAPHICS CARD</h3><BR></BR>
 
         <div class="price">
-            ৳ 85,900<span>৳ 87,600</span>
+            ৳ 85,900
         </div>
 
         <div class="stock">In Stock</div>
@@ -79,7 +79,7 @@
         <h3>MAXSUN MS-RX580 2048SP BIG MAC PLUS 8G GRAPHICS CARD</h3>
 
         <div class="price">
-            ৳ 16,000 <span>৳ 17,000</span>
+            ৳ 16,000 
         </div>
 
         <div class="stock">In Stock</div>
@@ -100,7 +100,7 @@
         <h3>INNO3D GEFORCE RTX 5070 Ti X3 OC 16GB GDDR7 GRAPHICS CARD(WHITE)</h3>
 
         <div class="price">
-            ৳ 119,900 <span>৳ 125,900</span>
+            ৳ 119,900 
         </div>
 
         <div class="stock">In Stock</div>
@@ -121,7 +121,7 @@
         <h3>GIGABYTE GEFORCE RTX 5060 EAGLE MAX OC 8GB GDDR7 GRAPHICS CARD</h3>
 
         <div class="price">
-            ৳ 49,000 <span>৳ 51,000</span>
+            ৳ 49,000
         </div>
 
         <div class="stock">In Stock</div>
@@ -135,6 +135,8 @@
         <button class="buy-btn">Buy Now</button>
     </div>
 </section>
+
+<script src="js/addtocart.js"></script>
 
 <?php include 'footer.php'; ?>
 

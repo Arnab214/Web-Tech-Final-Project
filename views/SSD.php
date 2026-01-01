@@ -17,7 +17,7 @@
         <h3>NCX DASH 3 512GB PLCle GEN 3.0 NVMe SSD WITH HMB CACHE</h3>
 
         <div class="price">
-            ৳ 7,700 <span>৳ 7,900</span>
+            ৳ 7,700 
         </div>
 
         <div class="stock">In Stock</div>
@@ -38,7 +38,7 @@
         <h3>NCX DASH 3 256GB PLCle GEN 3.0 NVMe SSD WITH HMB CACHE</h3>
 
         <div class="price">
-            ৳ 4,700 <span>৳ 5,200</span>
+            ৳ 4,700 
         </div>
 
         <div class="stock">In Stock</div>
@@ -56,10 +56,10 @@
         <span class="save-badge">Save: ৳ 500</span>
         <img src="../views/images/ssd/cover-1764234339_cache_optimize-70.webp" alt="RTX 3050">
 
-        <h3>NCX DASH 4 1TB PLCle GEN 4.0 NVMe SSD</h3>
+        <h3>NCX DASH 4 1TB PLCle GEN 4.0 NVMe SSD</h3> <br>
 
         <div class="price">
-            ৳ 13,500<span>৳ 14,000</span>
+            ৳ 13,500
         </div>
 
         <div class="stock">In Stock</div>
@@ -77,10 +77,10 @@
         <span class="save-badge">Save: ৳ 1,000</span>
         <img src="../views/images/ssd/cover-1764235770_cache_optimize-70.webp" alt="RTX 5070 Ti">
 
-        <h3>NCX DASH 4 1TB PLCle GEN 4.0 NVMe SSD</h3>
+        <h3>NCX DASH 4 1TB PLCle GEN 4.0 NVMe SSD</h3> <br>
 
         <div class="price">
-            ৳ 8,500 <span>৳ 9,500</span>
+            ৳ 8,500 
         </div>
 
         <div class="stock">In Stock</div>
@@ -101,7 +101,7 @@
         <h3>NCX RAPTOR 5 1TB PCIe 5.0 X4 NVMe SSD WITH DRAM AND SLC CACHE</h3>
 
         <div class="price">
-            ৳ 20,500 <span>৳ 22,000</span>
+            ৳ 20,500
         </div>
 
         <div class="stock">In Stock</div>
@@ -119,10 +119,10 @@
         <span class="save-badge">Save: ৳ 1,000</span>
         <img src="../views/images/ssd/cover-1765682914_cache_optimize-70.webp" alt="RTX 5070 Ti">
 
-        <h3>ORICON O7000-512GB 4.0 PCLe M.2 NVMe SSD <BR></BR></h3>
+        <h3>ORICON O7000-512GB 4.0 PCLe M.2 NVMe SSD </h3>
 
         <div class="price">
-            ৳ 8,500 <span>৳ 9,500</span>
+            ৳ 8,500 
         </div>
 
         <div class="stock">In Stock</div>
@@ -136,6 +136,8 @@
         <button class="buy-btn">Buy Now</button>
     </div>
 </section>
+
+<script src="js/addtocart.js"></script>
 
 <?php include 'footer.php'; ?>
 

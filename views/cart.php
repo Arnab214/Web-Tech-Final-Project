@@ -35,8 +35,9 @@
 <div class="cart-total" id="totalPrice"></div>
 
 <div class="cart-actions">
-    <button onclick="checkout()" class="checkout-btn">Checkout</button>
+    <a href="checkout.php"><button class="checkout-btn">Check Out </button></a>
 </div>
+
 
 </div>
  </main>

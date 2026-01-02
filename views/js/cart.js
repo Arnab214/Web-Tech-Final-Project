@@ -1,26 +1,4 @@
-// let cart = JSON.parse(localStorage.getItem("cart")) || [];
-// let total = 0;
-// let tbody = document.getElementById("cartItems");
 
-
-
-// cart.forEach(item => {
-//     let subtotal = item.price * item.qty;
-//     total += subtotal;
-
-//     tbody.innerHTML += `
-//         <tr>
-//             <td>${item.name}</td>
-//             <td>${item.price}</td>
-//             <td>${item.qty}</td>
-//             <td>${subtotal}</td>
-//         </tr>
-//     `;
-// });
-
-
-// document.getElementById("totalPrice").innerText =
-//     "Total Price: ৳ " + total;
 
 document.addEventListener("DOMContentLoaded", function () {
     renderCart();
@@ -73,7 +51,7 @@ function renderCart() {
     totalPrice.innerText = "Total: ৳ " + total;
 }
 
-// ➕ Increase
+// Increase
 function increaseQty(index) {
     let cart = JSON.parse(localStorage.getItem("cart"));
     cart[index].qty += 1;
@@ -81,7 +59,7 @@ function increaseQty(index) {
     renderCart();
 }
 
-// ➖ Decrease
+// Decrease
 function decreaseQty(index) {
     let cart = JSON.parse(localStorage.getItem("cart"));
 
@@ -95,7 +73,7 @@ function decreaseQty(index) {
     renderCart();
 }
 
-// ❌ Remove
+//remove
 function removeItem(index) {
     let cart = JSON.parse(localStorage.getItem("cart"));
     cart.splice(index, 1);
@@ -103,7 +81,7 @@ function removeItem(index) {
     renderCart();
 }
 
-// ✅ Checkout
+
 function checkout() {
     let cart = JSON.parse(localStorage.getItem("cart")) || [];
 
@@ -112,10 +90,73 @@ function checkout() {
         return;
     }
 
-    alert("✅ Your order is confirmed!");
+    alert("First Add Something In Cart!");
 
-    // Clear cart
-    localStorage.removeItem("cart");
-
-    renderCart();
+   
 }
+
+document.addEventListener("DOMContentLoaded", function () {
+
+    const form = document.getElementById("checkoutForm");
+
+    if (!form) {
+        console.error("Form not found");
+        return;
+    }
+
+    form.addEventListener("submit", function (e) {
+        e.preventDefault();
+
+        let cart = JSON.parse(localStorage.getItem("cart")) || [];
+        if (cart.length === 0) {
+            alert("Your cart is empty!");
+            return;
+        }
+
+        const name = form.querySelector('input[type="text"]');
+        const phone = form.querySelector('input[type="tel"]');
+        const address = form.querySelector("textarea");
+        const payment = form.querySelector('input[name="payment"]:checked');
+        const terms = document.getElementById("terms");
+
+        if (!name || !phone || !address) {
+            alert("Form fields missing");
+            return;
+        }
+
+        if (name.value.trim() === "") {
+            alert("Please enter your name");
+            name.focus();
+            return;
+        }
+
+        if (phone.value.trim() === "") {
+            alert("Please enter your phone number");
+            phone.focus();
+            return;
+        }
+
+        if (address.value.trim() === "") {
+            alert("Please enter your address");
+            address.focus();
+            return;
+        }
+
+        if (!payment) {
+            alert("Please select a payment method");
+            return;
+        }
+
+        if (!terms.checked) {
+            alert("You must agree to the Terms & Conditions");
+            return;
+        }
+
+        alert("✅ Your order is confirmed!");
+
+        localStorage.removeItem("cart");
+
+        window.location.href = "home.php";
+    });
+
+});

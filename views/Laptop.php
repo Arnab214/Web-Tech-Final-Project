@@ -8,6 +8,7 @@
 <body>
 
  <?php include 'header.php'; ?>
+ <?php include 'nav.php'; ?>
  
 <section class="product-section">
     <div class="product-card">

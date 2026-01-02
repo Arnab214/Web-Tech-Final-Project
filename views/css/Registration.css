@@ -10,12 +10,10 @@ body{
     background-size: 100%;
     background-repeat: no-repeat; 
     line-height: .8;
-    /* display: flex; */
     align-items: center;
     justify-content: center;
     min-height: 100vh;
     width: 100vw;
-    
 
 }
 
@@ -33,13 +31,13 @@ body{
     -webkit-border-radius: 10px;
     box-shadow: 0 2.8px 2.2px rgba(0,0,0, 0.034), 0 6.7px 5.3px rgba(0,0,0,0.048);
     overflow: hidden;
-    width: calc(100vw - 65vw);
+    width: calc(100vw - 75vw);
     max-width: 100%;
    
 }
 
 .header{
-    background: var(--lg-color);
+    /* background: var(--lg-color); */
     padding: 25px 0;
 }
 
@@ -47,7 +45,6 @@ body{
     color: #222;
     font-family: var(--my-btn-font);
     font-size: 24px;
-    text-transform: uppercase;
     text-align: center;
 }
 
@@ -86,7 +83,7 @@ body{
     border-color: #e74c3c;
  }
 .form-control i{
-    /* after absolate icon will overlap  */
+  
     position: absolute;
     right: 2px;
     top: 26px; 
@@ -129,7 +126,7 @@ body{
     font-weight: bold;
     text-transform:uppercase ;
     transition: all;
-    background: var(--lg-color);
+    background: rgb(119, 119, 223);
 }
 
 .form .btn:hover{

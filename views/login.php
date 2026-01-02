@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
-    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/Login.css">
     
 </head>
 <body>
@@ -16,8 +16,8 @@
 
     <main class="login-page">
             <div class="container">
-        <div class="header">
-            <h1>Login Form</h1>
+        <div class="header"> <br><br><br><br><br><br><br><br><br><br><br>
+            <h1>Login</h1>
         </div>
         <form action="" class="form" id="form">
             <div class="login-control">

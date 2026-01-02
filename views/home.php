@@ -12,29 +12,17 @@
         <?php include 'header.php'; ?>
         
 
-        <!-- LOGIN DROPDOWN -->
+   
         <div class="login-box" id="loginBox">
             <button>Click to Login</button>
             <a href="#">Create An Account</a>
         </div>
 
-        <!-- NAV -->
-        <nav class="menu">
-            <a href="Motherboard.php">Motherboard</a>
-            <a href="Laptop.php">Laptop</a>
-            <a href="Monitor.php">Monitor</a>
-            <a href="Processor.php">Processor</a>
-            <a href="Ram.php">Ram</a>
-            <a href="SSD.php">SSD</a>
-            <a href="Graphics_card.php">Graphics Card</a>
-            
-        </nav>
+        <?php include 'nav.php'; ?>
 
-            
+        
 
 
-
-        <!-- CATEGORY GRID -->
         <section class="categories">
             <div class="cat-card"><a href="Motherboard.php" style="text-decoration: none;"><img src="images/home_img/motherboard.webp" alt="" width="60" height="50"><p>Mother Board</p></a></div>
             <div class="cat-card"><a href="Laptop.php" style="text-decoration: none;"><img src="images/home_img/laptop.webp" alt="" width="60" height="50"><p>Laptop</p></a></div>
